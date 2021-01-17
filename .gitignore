@@ -1,0 +1,13 @@
+.vscode
+.vscode/launch.json
+HelperClasses/Call.class
+HelperClasses/Command.class
+HelperClasses/Create.class
+HelperClasses/Function.class
+HelperClasses/Loop.class
+HelperClasses/Operation.class
+HelperClasses/Point.class
+HelperClasses/Value.class
+HelperClasses/Variable.class
+Interpretation/BetterFuckInterpreter.class
+/BetterFuck.class
