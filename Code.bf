@@ -1,7 +1,7 @@
 clone{delete(9999)0*>[-0*<1*>+9999>+9999<1*<0*>]0*<1*>9999>[-9999<1*<0*>+0*<9999>1*>]9999<1*<} /clones a value*/
 move{0*>[-0*<1*>+1*<0*>]0*<} /moves a value*/
 delete{0*>[-]0*<} /*Deletes a value*/
-set{delete(0*)0*>0*<} /*Sets the value at 0* to 1* */
+set{delete(0*)0*>1*+0*<} /*Sets the value at 0* to 1* */
 
 notzero{0*>[-0*<10000>+10000<0*>[-]]0*<move(10000;0*)} /*For the not() command*/
 less{clone(0*;4001)clone(1*;4000)delete(0*)delete(1*)4000>+>+<[-[>-[< <-<]<[-]>>+<<]>[-]>>]4003<clone(4002;2*)delete(4002)} /*Atr0x algorithm*/
